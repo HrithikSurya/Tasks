@@ -1,0 +1,32 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    transition: all;
+    background-image:url(ima.jpg);
+    background-size:cover;
+}
+.nav{
+    top: 0px;
+    height: 50px;
+    text-align: center;
+    font-weight: 100;
+    font-style: oblique;
+    color: black;
+    background-color:rgb(167, 205, 208);
+    border: 3px solid black;
+}
+#loginid, #password {
+    display: flex;
+    align-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+div{
+    position: absolute;
+    background-color: rgb(167, 205, 208);
+    margin: 20px;
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 1rem;
+
+}
